@@ -1,8 +1,16 @@
+/*************
+Question:
+
+To find minimum in given values.
+
+*************/
+
 import java.util.*;
 public class minimum {
     public static void main(String[] args) {
          // initialization the input in array
         Scanner s=new Scanner(System.in);
+        System.out.print("Enter the array length : ");
         int n=s.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<arr.length;i++){
@@ -22,4 +30,16 @@ public class minimum {
     }
     
 }
+
+
+
+/************
+OUTPUT:
+Enter the array length : 3
+3
+4
+2
+Minimum in array is : 2
+
+*************/
 
